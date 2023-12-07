@@ -1,10 +1,44 @@
  
- p{
-    text-align:center;
-    font-size: 60px;
-    margin-top: 0px;
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
+img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   max-width: 500px;
+   height: auto;
+    
+}
+
+ body{
+   background: rgb(255, 253, 253);
+
+ }
+
+ #time{
+   font-size: 3em;
+   font-weight: 100;
+   color: rgb(247, 244, 244);
+   padding: 20px;
+   width: 700px;
+   color: white;
+   font-family:  'Kumbh Sans', sans-serif;
+    margin-left:25%;
+    
+ }
+
+ #time div{
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: #000000;
+    border-radius: 10px;
+    border: 2px solid #01030e;
+    margin: 15px;
+    
+ }
+
+ #time div span {
+   color: #ffffff;
+    display: inline;
+     
  }
